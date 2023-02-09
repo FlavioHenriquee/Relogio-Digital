@@ -5,7 +5,7 @@
 }
 
 body{
-    animation: oioioi 10s ease infinite;
+    animation: degrade 10s ease infinite;
     align-items: center; 
     background: linear-gradient(120deg, #6289f5, #4674f2, #2c55c7, #202e54 ,black);
     background-size: 300% 300%;
@@ -47,7 +47,7 @@ body{
     font-size: 18px;
 }
 
-@keyframes oioioi{
+@keyframes degrade{
     0%{
         background-position: 0 50%;
     }
